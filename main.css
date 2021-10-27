@@ -1,0 +1,145 @@
+* {
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  background-color: white;
+  /*background-color: #1ABC9C;*/
+  /*background: linear-gradient(135deg, #22577A, #38A3A5 );*/
+}
+
+main {
+  background-color: white;
+  margin: 50px auto;
+  width: 600px;
+  font-size: 18px;
+  border-radius: 40px;
+}
+
+#reloj{
+  background-color: #1ABC9C;
+  color: white;
+  border-radius: 30px;
+  margin: 0 100px 0 100px;  
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+
+input,
+button,
+select {
+  font-size: 20px;
+}
+
+h1 {
+  padding: 30px 20px 0px 20px;
+  text-align: center;
+}
+
+#todos {
+  padding: 20px;
+}
+
+.todo {
+  border-radius: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.todo:hover {
+  background-color: #eee;;
+}
+
+.todo .checkbox-container {
+  width: calc(100% - 36px);
+  /*width: 100%;*/
+}
+
+.todo button {
+  border: 0;
+  background: none;
+  background-image: url(/images/delete.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  width: 40px;
+  height: 64px;
+}
+
+.todo button:hover svg {
+  fill: rgb(255, 137, 124);
+  transition:1.3s;
+}
+
+#lists {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+}
+
+#lists .list {
+  background-color: rgb(255, 137, 124);
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+  
+}
+
+#add-container {
+  background-color: #eee;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+#add-container form {
+  display: flex;
+  align-items: baseline;
+}
+
+#add-container form select {
+  border: 0;
+  background-color: transparent;
+  padding: 5px;
+  outline: none;
+  width: 30%;
+  margin-left: 10px;
+  justify-content: flex-end;
+}
+
+#add-container form input {
+  padding: 10px 0;
+  width: 70%;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+#add-container form::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: solid #aaa;
+  border-width: 0 3px 3px 0;
+  transform: rotate(-45deg);
+  margin-right: 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+  padding-bottom: 20px;
+}
+
